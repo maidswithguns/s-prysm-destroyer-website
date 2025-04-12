@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/s-prysm-destroyer-website/static/css/main.9bdd5f26.css",
-    "main.js": "/s-prysm-destroyer-website/static/js/main.e00556b9.js",
+    "main.css": "/s-prysm-destroyer-website/static/css/main.e900ed65.css",
+    "main.js": "/s-prysm-destroyer-website/static/js/main.570905e6.js",
     "static/js/787.095bf445.chunk.js": "/s-prysm-destroyer-website/static/js/787.095bf445.chunk.js",
     "static/media/detailed.png": "/s-prysm-destroyer-website/static/media/detailed.a449707dca06b9029d7d.png",
     "static/media/space.jpg": "/s-prysm-destroyer-website/static/media/space.63cfb248d1b634c743d0.jpg",
     "index.html": "/s-prysm-destroyer-website/index.html",
-    "main.9bdd5f26.css.map": "/s-prysm-destroyer-website/static/css/main.9bdd5f26.css.map",
-    "main.e00556b9.js.map": "/s-prysm-destroyer-website/static/js/main.e00556b9.js.map",
+    "main.e900ed65.css.map": "/s-prysm-destroyer-website/static/css/main.e900ed65.css.map",
+    "main.570905e6.js.map": "/s-prysm-destroyer-website/static/js/main.570905e6.js.map",
     "787.095bf445.chunk.js.map": "/s-prysm-destroyer-website/static/js/787.095bf445.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bdd5f26.css",
-    "static/js/main.e00556b9.js"
+    "static/css/main.e900ed65.css",
+    "static/js/main.570905e6.js"
   ]
 }
