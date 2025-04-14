@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/s-prysm-destroyer-website/static/css/main.da8209d4.css",
-    "main.js": "/s-prysm-destroyer-website/static/js/main.f0d06d81.js",
+    "main.css": "/s-prysm-destroyer-website/static/css/main.2beac1c9.css",
+    "main.js": "/s-prysm-destroyer-website/static/js/main.a751fdb3.js",
     "static/js/787.095bf445.chunk.js": "/s-prysm-destroyer-website/static/js/787.095bf445.chunk.js",
+    "static/media/gallery9.png": "/s-prysm-destroyer-website/static/media/gallery9.1ddcf88d2bd86fe3c8fa.png",
+    "static/media/gallery1.png": "/s-prysm-destroyer-website/static/media/gallery1.ff90ee5157c8311df237.png",
     "static/media/robo_cut.png": "/s-prysm-destroyer-website/static/media/robo_cut.29814c7929bd6018e333.png",
     "static/media/amor_cut.png": "/s-prysm-destroyer-website/static/media/amor_cut.effb45ac0ecff7172d70.png",
+    "static/media/gallery10.png": "/s-prysm-destroyer-website/static/media/gallery10.7c78c77abe40bbb9cb62.png",
+    "static/media/logo_maids.png": "/s-prysm-destroyer-website/static/media/logo_maids.e61c093b1368e6fe01f7.png",
     "static/media/detailed.png": "/s-prysm-destroyer-website/static/media/detailed.a449707dca06b9029d7d.png",
+    "static/media/gallery7.png": "/s-prysm-destroyer-website/static/media/gallery7.4ac4c18d0ef1cf3fd17c.png",
     "static/media/boy_cut.png": "/s-prysm-destroyer-website/static/media/boy_cut.3f4c7d3dc32c0d7c74d8.png",
+    "static/media/gallery8.png": "/s-prysm-destroyer-website/static/media/gallery8.a31c4ee31e96d9568c62.png",
+    "static/media/gallery2.png": "/s-prysm-destroyer-website/static/media/gallery2.6c5e1863f70176730f0f.png",
+    "static/media/gallery4.png": "/s-prysm-destroyer-website/static/media/gallery4.44b733af0c179873f5e5.png",
+    "static/media/gallery5.png": "/s-prysm-destroyer-website/static/media/gallery5.a88fb6b7062c1a426ab6.png",
+    "static/media/gallery3.png": "/s-prysm-destroyer-website/static/media/gallery3.0657272e3553225d2499.png",
     "static/media/jpg": "/s-prysm-destroyer-website/static/media/7d446c44ffecce0f93771788517de085fa822eb6aed69cdcd2739c68190bb7f9.4bc8c5e346c9086ac76f.jpg",
     "static/media/webp": "/s-prysm-destroyer-website/static/media/12f5fd7f298036cacc57d42fceb19007dc0280766228ae1f16ecabd9015193c1.2927a45268b2a8edde57.webp",
     "static/media/space.jpg": "/s-prysm-destroyer-website/static/media/space.63cfb248d1b634c743d0.jpg",
+    "static/media/gallery6.jpg": "/s-prysm-destroyer-website/static/media/gallery6.82c5156fb21f39fac76b.jpg",
     "index.html": "/s-prysm-destroyer-website/index.html",
-    "main.da8209d4.css.map": "/s-prysm-destroyer-website/static/css/main.da8209d4.css.map",
-    "main.f0d06d81.js.map": "/s-prysm-destroyer-website/static/js/main.f0d06d81.js.map",
+    "main.2beac1c9.css.map": "/s-prysm-destroyer-website/static/css/main.2beac1c9.css.map",
+    "main.a751fdb3.js.map": "/s-prysm-destroyer-website/static/js/main.a751fdb3.js.map",
     "787.095bf445.chunk.js.map": "/s-prysm-destroyer-website/static/js/787.095bf445.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da8209d4.css",
-    "static/js/main.f0d06d81.js"
+    "static/css/main.2beac1c9.css",
+    "static/js/main.a751fdb3.js"
   ]
 }
