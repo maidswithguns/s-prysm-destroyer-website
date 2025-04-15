@@ -2,7 +2,17 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(24, 29, 29);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/space.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: white;
 }
 
 code {
@@ -12,14 +22,203 @@ code {
 
 .full-width-video {
   width: 100% !important;
-  height: 100vh !important;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
   object-fit: fill !important;
 }
 
-.header {
-  display: grid;
+.center-button-parent {
+  max-width: 900px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  text-align: center;
+}
+
+.cool-button {
+  width: 100%;
+  height: 100px;
+  margin: 10px;
+  border: 4px solid #ffffff;
   color: white;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.cool-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px #00f0ff, 0 0 30px #008cff55 !important;
+  transform: scale(1.05);
+}
+
+.cool-button::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  z-index: -1;
+  background: linear-gradient(45deg, #00f0ff, #ff00f0, #00f0ff);
+  background-size: 400% 400%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+  animation: gradient-glow 8s ease infinite !important;
+}
+
+
+.cool-button.xbox:hover {
+  box-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00 !important;
+  border-color: #00ff00;
+}
+
+.cool-button.playstation:hover {
+  box-shadow: 0 0 20px #005eff, 0 0 30px #00a6ff !important;
+  border-color: #005eff;
+}
+
+.cool-button.nintendo:hover {
+  box-shadow: 0 0 20px #ff2d2d, 0 0 30px #ff2d2d !important;
+  border-color: #ff2d2d;
+}
+
+
+.cool-button.steam::after {
+  background: linear-gradient(45deg, #00f0ff, #004dff, #00f0ff);
+  background-size: 400% 400%;
+}
+
+.cool-button.xbox::after {
+  background: linear-gradient(45deg, #006400, #0f0, #006400);
+  background-size: 400% 400%;
+}
+
+.cool-button.playstation::after {
+  background: linear-gradient(45deg, #005eff, #00a6ff, #005eff);
+  background-size: 400% 400%;
+}
+
+.cool-button.nintendo::after {
+  background: linear-gradient(45deg, #ff2d2d, #ff0055, #ff2d2d);
+  background-size: 400% 400%;
+}
+
+
+.cool-button:hover::after {
+  opacity: 1;
+}
+
+@keyframes gradient-glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cool-button {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: buttonEnter 0.8s ease-out forwards;
+}
+
+.cool-button.steam {
+  animation-delay: 0.2s;
+}
+.cool-button.xbox {
+  animation-delay: 0.4s;
+}
+.cool-button.playstation {
+  animation-delay: 0.6s;
+}
+.cool-button.nintendo {
+  animation-delay: 0.8s;
+}
+
+@keyframes buttonEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.98);
+    filter: brightness(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: brightness(100%);
+  }
+}
+
+.angled-section {
+  background-color: #002b45;
+  transform: skewY(-3deg);
+  padding: 20px 20px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.angled-section > * {
+  transform: skewY(3deg); /* unskew inner content */
+}
+
+.angled-section.reverse {
+  transform: skewY(3deg);
+}
+.angled-section.reverse > * {
+  transform: skewY(-3deg); /* unskew inner content */
+}
+
+.pattern-background {
+  background-image: url('./images/Background-tile.png');
+}
+
+.reverse-on-mobile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .reverse-on-mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+.gallery {
+  margin: 50px auto 0;
+  padding: 24px;
+  background: linear-gradient(to bottom, #25365e, #1d2532);
+
+  .row {
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  .row * {
+    padding: 2px;
+  }
 }
