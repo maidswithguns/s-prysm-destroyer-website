@@ -219,7 +219,7 @@ const App = () => {
           <ul style={{ listStyle: 'none', padding: '0', lineHeight: '2' }}>
             <li><a href="https://x.com/MaidsWithGuns_" target="_blank" rel="noreferrer">MaidsWithGuns</a> - <strong>Producer</strong></li>
             <li><a href="https://www.instagram.com/bigscaryindian/" target="_blank" rel="noreferrer">BigScaryIndian</a> - <strong>Musician</strong></li>
-            <li><a href="https://x.com/R4ND0MCH2" target="_blank" rel="noreferrer">Randamu3dModels</a> - <strong>3D Modeling</strong></li>
+            <li><a href="https://x.com/randamu3dmodels" target="_blank" rel="noreferrer">Randamu3dModels</a> - <strong>3D Modeling</strong></li>
             <li><a href="https://www.eastasiasoft.com/" target="_blank" rel="noreferrer">EastAsiaSoft</a> - <strong>Publishing on consoles</strong></li>
           </ul>
           <p style={{ fontSize: '20px', fontWeight: '500', marginBottom: '20px' }}>
