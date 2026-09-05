@@ -225,6 +225,9 @@ const App = () => {
           <p style={{ fontSize: '20px', fontWeight: '500', marginBottom: '20px' }}>
             Contact me through: contact@maidswithguns.com
           </p>
+          <p style={{ fontSize: '18px', fontWeight: '500', marginBottom: '20px' }}>
+            <a href="/portfolio/">Hire a Freelance Anime Game Programmer</a> for Unity, adult, NSFW and hentai game development.
+          </p>
         </div>
         <h3>For creators</h3>
         <a href="https://drive.google.com/drive/u/1/folders/1kn2j4AVSV5Lqwln9qamRsqDnAdvoeLDE" target="_blank" rel="noreferrer" className="btn waves-effect waves-light transparent cool-button" style={{
